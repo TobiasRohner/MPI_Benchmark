@@ -1,0 +1,84 @@
+
+Message Size: 1KB
+MPI_Alltoall Max Speed: 0.0388391GB/s
+MPI_Sendrecv Max Speed: 0.0374471GB/s
+
+Message Size: 2KB
+MPI_Alltoall Max Speed: 0.111888GB/s
+MPI_Sendrecv Max Speed: 0.0531154GB/s
+
+Message Size: 4KB
+MPI_Alltoall Max Speed: 0.103025GB/s
+MPI_Sendrecv Max Speed: 0.113627GB/s
+
+Message Size: 8KB
+MPI_Alltoall Max Speed: 0.221241GB/s
+MPI_Sendrecv Max Speed: 0.119853GB/s
+
+Message Size: 16KB
+MPI_Alltoall Max Speed: 0.667649GB/s
+MPI_Sendrecv Max Speed: 0.346696GB/s
+
+Message Size: 32KB
+MPI_Alltoall Max Speed: 1.0876GB/s
+MPI_Sendrecv Max Speed: 0.471685GB/s
+
+Message Size: 64KB
+MPI_Alltoall Max Speed: 0.769371GB/s
+MPI_Sendrecv Max Speed: 0.28886GB/s
+
+Message Size: 128KB
+MPI_Alltoall Max Speed: 1.30148GB/s
+MPI_Sendrecv Max Speed: 0.588087GB/s
+
+Message Size: 256KB
+MPI_Alltoall Max Speed: 1.68486GB/s
+MPI_Sendrecv Max Speed: 0.611339GB/s
+
+Message Size: 512KB
+MPI_Alltoall Max Speed: 1.29563GB/s
+MPI_Sendrecv Max Speed: 0.700834GB/s
+
+Message Size: 1MB
+MPI_Alltoall Max Speed: 2.54993GB/s
+MPI_Sendrecv Max Speed: 1.30264GB/s
+
+Message Size: 2MB
+MPI_Alltoall Max Speed: 2.54663GB/s
+MPI_Sendrecv Max Speed: 1.52064GB/s
+
+Message Size: 4MB
+MPI_Alltoall Max Speed: 2.4044GB/s
+MPI_Sendrecv Max Speed: 1.41981GB/s
+
+Message Size: 8MB
+MPI_Alltoall Max Speed: 2.45079GB/s
+MPI_Sendrecv Max Speed: 1.54909GB/s
+
+Message Size: 16MB
+MPI_Alltoall Max Speed: 2.53458GB/s
+MPI_Sendrecv Max Speed: 1.68757GB/s
+
+Message Size: 32MB
+MPI_Alltoall Max Speed: 2.53769GB/s
+MPI_Sendrecv Max Speed: 1.39142GB/s
+
+Message Size: 64MB
+MPI_Alltoall Max Speed: 2.61731GB/s
+MPI_Sendrecv Max Speed: 1.44925GB/s
+
+Message Size: 128MB
+MPI_Alltoall Max Speed: 2.60355GB/s
+MPI_Sendrecv Max Speed: 1.51826GB/s
+
+Message Size: 256MB
+MPI_Alltoall Max Speed: 2.62123GB/s
+MPI_Sendrecv Max Speed: 1.55496GB/s
+
+Message Size: 512MB
+MPI_Alltoall Max Speed: 2.60086GB/s
+MPI_Sendrecv Max Speed: 1.48351GB/s
+
+Message Size: 1GB
+MPI_Alltoall Max Speed: 2.50299GB/s
+MPI_Sendrecv Max Speed: 1.40923GB/s

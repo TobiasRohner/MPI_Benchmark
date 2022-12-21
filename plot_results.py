@@ -15,7 +15,7 @@ TMPDIR = sys.argv[1]
 OUTDIR = sys.argv[2]
 
 
-file_re = re.compile(r'^slurm-mpi_\d+\.\d{8}\.out$')
+file_re = re.compile(r'^slurm-mpi_\d+\.\d+\.out$')
 files = [f for f in os.listdir(TMPDIR) if file_re.match(f) is not None]
 print(files)
 
@@ -76,12 +76,12 @@ def plot(data, title, **kwargs):
     plt.ylabel('Number of MPI Ranks')
     plt.title(title)
 
-plot(bw_cray_arr, 'Bandwidth of Cray MPI_Alltoall in GB/s', vmin=min_bw, vmax=max_bw)
-plt.savefig(os.path.join(OUTDIR, 'bandwidth_cray.png'))
+plot(bw_cray_arr, 'Bandwidth of Native MPI_Alltoall in GB/s', vmin=min_bw, vmax=max_bw)
+plt.savefig(os.path.join(OUTDIR, 'bandwidth_native.png'))
 plt.show()
 plot(bw_custom_arr, 'Bandwidth of Custom MPI_Alltoall in GB/s', vmin=min_bw, vmax=max_bw)
 plt.savefig(os.path.join(OUTDIR, 'bandwidth_custom.png'))
 plt.show()
-plot(bw_custom_arr / bw_cray_arr, 'Speedup of Custom MPI_Alltoall over Cray', cmap='RdBu', norm=mpl.colors.LogNorm(vmin=1/max_diff, vmax=max_diff))
+plot(bw_custom_arr / bw_cray_arr, 'Speedup of Custom MPI_Alltoall over Native', cmap='RdBu', norm=mpl.colors.LogNorm(vmin=1/max_diff, vmax=max_diff))
 plt.savefig(os.path.join(OUTDIR, 'speedup.png'))
 plt.show()
