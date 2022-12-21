@@ -1,0 +1,105 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+gcc/11.2.0(3):ERROR:150: Module 'gcc/11.2.0' conflicts with the currently loaded module(s) 'gcc/9.3.0'
+gcc/11.2.0(3):ERROR:102: Tcl command execution failed: conflict gcc
+
+
+Message Size: 1KB
+MPI_Alltoall Max Speed: 0.22063GB/s
+MPI_Sendrecv Max Speed: 0.518583GB/s
+
+Message Size: 2KB
+MPI_Alltoall Max Speed: 0.40961GB/s
+MPI_Sendrecv Max Speed: 0.936352GB/s
+
+Message Size: 4KB
+MPI_Alltoall Max Speed: 0.755311GB/s
+MPI_Sendrecv Max Speed: 1.58946GB/s
+
+Message Size: 8KB
+MPI_Alltoall Max Speed: 1.42459GB/s
+MPI_Sendrecv Max Speed: 1.78716GB/s
+
+Message Size: 16KB
+MPI_Alltoall Max Speed: 2.51671GB/s
+MPI_Sendrecv Max Speed: 3.03718GB/s
+
+Message Size: 32KB
+MPI_Alltoall Max Speed: 4.08426GB/s
+MPI_Sendrecv Max Speed: 4.84675GB/s
+
+Message Size: 64KB
+MPI_Alltoall Max Speed: 5.51108GB/s
+MPI_Sendrecv Max Speed: 6.59947GB/s
+
+Message Size: 128KB
+MPI_Alltoall Max Speed: 6.12987GB/s
+MPI_Sendrecv Max Speed: 7.19478GB/s
+
+Message Size: 256KB
+MPI_Alltoall Max Speed: 7.0316GB/s
+MPI_Sendrecv Max Speed: 7.96869GB/s
+
+Message Size: 512KB
+MPI_Alltoall Max Speed: 7.74018GB/s
+MPI_Sendrecv Max Speed: 8.71658GB/s
+
+Message Size: 1MB
+MPI_Alltoall Max Speed: 8.08644GB/s
+MPI_Sendrecv Max Speed: 9.03647GB/s
+
+Message Size: 2MB
+MPI_Alltoall Max Speed: 8.19534GB/s
+MPI_Sendrecv Max Speed: 9.16201GB/s
+
+Message Size: 4MB
+MPI_Alltoall Max Speed: 8.10513GB/s
+MPI_Sendrecv Max Speed: 9.16216GB/s
+
+Message Size: 8MB
+MPI_Alltoall Max Speed: 7.88467GB/s
+MPI_Sendrecv Max Speed: 9.01442GB/s
+
+Message Size: 16MB
+MPI_Alltoall Max Speed: 6.39101GB/s
+MPI_Sendrecv Max Speed: 7.21882GB/s
+
+Message Size: 32MB
+MPI_Alltoall Max Speed: 5.86869GB/s
+MPI_Sendrecv Max Speed: 6.54851GB/s
+
+Message Size: 64MB
+MPI_Alltoall Max Speed: 5.89675GB/s
+MPI_Sendrecv Max Speed: 6.60454GB/s
+
+Message Size: 128MB
+MPI_Alltoall Max Speed: 5.78352GB/s
+MPI_Sendrecv Max Speed: 6.44389GB/s
+
+Message Size: 256MB
+MPI_Alltoall Max Speed: 5.7234GB/s
+MPI_Sendrecv Max Speed: 6.34419GB/s
+
+Message Size: 512MB
+MPI_Alltoall Max Speed: 5.6741GB/s
+MPI_Sendrecv Max Speed: 6.31459GB/s
+
+Message Size: 1GB
+MPI_Alltoall Max Speed: 5.68956GB/s
+MPI_Sendrecv Max Speed: 6.32464GB/s
+
+
+Batch Job Summary Report (version 21.01.1) for Job "mpi_2" (43640920) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-12-20T13:22:54 2022-12-20T13:22:55 2022-12-20T13:41:40 2022-12-20T13:44:27   00:02:47   00:05:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+     trohner        s1069       normal        2     30.004 kJ
+

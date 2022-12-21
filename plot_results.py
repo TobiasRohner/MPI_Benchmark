@@ -61,8 +61,13 @@ for ridx, rank in enumerate(ranks):
     for msidx, msg_size in enumerate(msg_sizes):
         bw_cray_arr[ridx,msidx] = bandwidth_cray[rank].get(msg_size, np.nan)
         bw_custom_arr[ridx,msidx] = bandwidth_custom[rank].get(msg_size, np.nan)
+speedup = bw_custom_arr / bw_cray_arr
+max_bw = max(np.nanmax(bw_cray_arr), np.nanmax(bw_custom_arr))
+min_bw = min(np.nanmin(bw_cray_arr), np.nanmin(bw_custom_arr))
+max_diff = max(np.nanmax(speedup), 1/np.nanmin(speedup))
 
 def plot(data, title, **kwargs):
+    plt.figure(figsize=(1.25*16, 1.25*9))
     plt.pcolormesh(data, **kwargs)
     plt.colorbar()
     plt.xticks(np.linspace(0.5, num_msg_sizes-0.5, num_msg_sizes), msg_sizes)
@@ -71,12 +76,12 @@ def plot(data, title, **kwargs):
     plt.ylabel('Number of MPI Ranks')
     plt.title(title)
 
-plot(bw_cray_arr, 'Bandwidth of Cray MPI_Alltoall in GB/s')
+plot(bw_cray_arr, 'Bandwidth of Cray MPI_Alltoall in GB/s', vmin=min_bw, vmax=max_bw)
+plt.savefig(os.path.join(OUTDIR, 'bandwidth_cray.png'))
 plt.show()
-plot(bw_custom_arr, 'Bandwidth of Custom MPI_Alltoall in GB/s')
+plot(bw_custom_arr, 'Bandwidth of Custom MPI_Alltoall in GB/s', vmin=min_bw, vmax=max_bw)
+plt.savefig(os.path.join(OUTDIR, 'bandwidth_custom.png'))
 plt.show()
-speedup = bw_custom_arr / bw_cray_arr
-max_diff = max(np.nanmax(speedup), 1/np.nanmin(speedup))
-print(max_diff)
 plot(bw_custom_arr / bw_cray_arr, 'Speedup of Custom MPI_Alltoall over Cray', cmap='RdBu', norm=mpl.colors.LogNorm(vmin=1/max_diff, vmax=max_diff))
+plt.savefig(os.path.join(OUTDIR, 'speedup.png'))
 plt.show()
