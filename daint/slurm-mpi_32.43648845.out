@@ -1,0 +1,137 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+gcc/11.2.0(3):ERROR:150: Module 'gcc/11.2.0' conflicts with the currently loaded module(s) 'gcc/9.3.0'
+gcc/11.2.0(3):ERROR:102: Tcl command execution failed: conflict gcc
+
+
+Message Size: 1KB
+MPI_Alltoall Max Speed: 0.39862GB/s
+MPI_Sendrecv Max Speed: 0.0783203GB/s
+
+Message Size: 2KB
+MPI_Alltoall Max Speed: 0.274778GB/s
+MPI_Sendrecv Max Speed: 0.21133GB/s
+
+Message Size: 4KB
+MPI_Alltoall Max Speed: 0.637739GB/s
+MPI_Sendrecv Max Speed: 0.201592GB/s
+
+Message Size: 8KB
+MPI_Alltoall Max Speed: 1.50021GB/s
+MPI_Sendrecv Max Speed: 0.225264GB/s
+
+Message Size: 16KB
+MPI_Alltoall Max Speed: 1.98442GB/s
+MPI_Sendrecv Max Speed: 0.392652GB/s
+
+Message Size: 32KB
+MPI_Alltoall Max Speed: 3.77605GB/s
+MPI_Sendrecv Max Speed: 0.621342GB/s
+
+Message Size: 64KB
+MPI_Alltoall Max Speed: 3.9504GB/s
+MPI_Sendrecv Max Speed: 1.39966GB/s
+
+Message Size: 128KB
+MPI_Alltoall Max Speed: 3.87371GB/s
+MPI_Sendrecv Max Speed: 2.09824GB/s
+
+Message Size: 256KB
+MPI_Alltoall Max Speed: 4.04989GB/s
+MPI_Sendrecv Max Speed: 1.71269GB/s
+
+Message Size: 512KB
+MPI_Alltoall Max Speed: 3.88088GB/s
+MPI_Sendrecv Max Speed: 2.94904GB/s
+
+Message Size: 1MB
+MPI_Alltoall Max Speed: 3.53587GB/s
+MPI_Sendrecv Max Speed: 3.60583GB/s
+
+Message Size: 2MB
+MPI_Alltoall Max Speed: 3.21459GB/s
+MPI_Sendrecv Max Speed: 4.27302GB/s
+
+Message Size: 4MB
+MPI_Alltoall Max Speed: 3.08284GB/s
+MPI_Sendrecv Max Speed: 4.73668GB/s
+
+Message Size: 8MB
+MPI_Alltoall Max Speed: 2.77744GB/s
+MPI_Sendrecv Max Speed: 5.17401GB/s
+
+Message Size: 16MB
+MPI_Alltoall Max Speed: 2.75523GB/s
+MPI_Sendrecv Max Speed: 5.31402GB/s
+
+Message Size: 32MB
+MPI_Alltoall Max Speed: 2.68351GB/s
+MPI_Sendrecv Max Speed: 5.28822GB/s
+
+Message Size: 64MB
+MPI_Alltoall Max Speed: 2.53304GB/s
+MPI_Sendrecv Max Speed: 5.29424GB/s
+
+Message Size: 128MB
+MPI_Alltoall Max Speed: 2.44889GB/s
+MPI_Sendrecv Max Speed: 5.33057GB/s
+
+Message Size: 256MB
+MPI_Alltoall Max Speed: 2.50588GB/s
+MPI_Sendrecv Max Speed: 5.22929GB/s
+
+Message Size: 512MB
+MPI_Alltoall Max Speed: 2.36307GB/s
+MPI_Sendrecv Max Speed: 5.2198GB/s
+
+Message Size: 1GB
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: nid07394: task 30: Out Of Memory
+srun: launch/slurm: _step_signal: Terminating StepId=43648845.0
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=43648845.0 cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.
+
+
+Batch Job Summary Report (version 21.01.1) for Job "mpi_32" (43648845) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2022-12-20T18:58:39 2022-12-20T18:58:39 2022-12-21T00:45:03 2022-12-21T01:20:51   00:35:48   04:00:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+     trohner        s1069       normal       23   6846.901 kJ
+
