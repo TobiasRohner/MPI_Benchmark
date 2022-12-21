@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --job-name=mpi_8
-#SBATCH --time=00:40:00
+#SBATCH --time=01:00:00
 #SBATCH --ntasks=8
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem-per-cpu=65536MB
