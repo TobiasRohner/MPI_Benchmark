@@ -36,7 +36,7 @@ int main(int argc, char *argv[]) {
   static constexpr size_t KB = 1024;
   static constexpr size_t MB = 1024 * 1024;
   static constexpr size_t GB = 1024 * 1024 * 1024;
-  const size_t max_msg_size = std::min(64*GB / size, 2*GB);
+  const size_t max_msg_size = std::min(32*GB / size, 2*GB);
   for (size_t msg_size = KB ; msg_size < max_msg_size; msg_size <<= 1) {
     if (rank == 0) {
       std::cout << "\nMessage Size: ";
