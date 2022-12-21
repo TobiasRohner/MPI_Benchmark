@@ -1,8 +1,8 @@
 #!/bin/bash -l
-#SBATCH --job-name=mpi_32
+#SBATCH --job-name=mpi_64
 #SBATCH --account="s1069"
-#SBATCH --time=01:00:00
-#SBATCH --nodes=32
+#SBATCH --time=02:00:00
+#SBATCH --nodes=64
 #SBATCH --ntasks-per-core=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=12
