@@ -1,0 +1,91 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+gcc/11.2.0(3):ERROR:150: Module 'gcc/11.2.0' conflicts with the currently loaded module(s) 'gcc/9.3.0'
+gcc/11.2.0(3):ERROR:102: Tcl command execution failed: conflict gcc
+
+
+Message Size: 1KB
+MPI_Alltoall Max Speed: 0.727128GB/s
+MPI_Sendrecv Max Speed: 0.405689GB/s
+
+Message Size: 2KB
+MPI_Alltoall Max Speed: 1.21973GB/s
+MPI_Sendrecv Max Speed: 0.736233GB/s
+
+Message Size: 4KB
+MPI_Alltoall Max Speed: 1.65933GB/s
+MPI_Sendrecv Max Speed: 1.18018GB/s
+
+Message Size: 8KB
+MPI_Alltoall Max Speed: 2.02251GB/s
+MPI_Sendrecv Max Speed: 0.907215GB/s
+
+Message Size: 16KB
+MPI_Alltoall Max Speed: 3.71859GB/s
+MPI_Sendrecv Max Speed: 1.58557GB/s
+
+Message Size: 32KB
+MPI_Alltoall Max Speed: 4.6093GB/s
+MPI_Sendrecv Max Speed: 2.21095GB/s
+
+Message Size: 64KB
+MPI_Alltoall Max Speed: 5.12026GB/s
+MPI_Sendrecv Max Speed: 3.16385GB/s
+
+Message Size: 128KB
+MPI_Alltoall Max Speed: 4.9506GB/s
+MPI_Sendrecv Max Speed: 4.07457GB/s
+
+Message Size: 256KB
+MPI_Alltoall Max Speed: 5.07457GB/s
+MPI_Sendrecv Max Speed: 4.86926GB/s
+
+Message Size: 512KB
+MPI_Alltoall Max Speed: 4.68493GB/s
+MPI_Sendrecv Max Speed: 5.39182GB/s
+
+Message Size: 1MB
+MPI_Alltoall Max Speed: 4.59594GB/s
+MPI_Sendrecv Max Speed: 5.43791GB/s
+
+Message Size: 2MB
+MPI_Alltoall Max Speed: 3.6313GB/s
+MPI_Sendrecv Max Speed: 5.56487GB/s
+
+Message Size: 4MB
+MPI_Alltoall Max Speed: 3.53974GB/s
+MPI_Sendrecv Max Speed: 5.48493GB/s
+
+Message Size: 8MB
+MPI_Alltoall Max Speed: 3.2391GB/s
+MPI_Sendrecv Max Speed: 5.55811GB/s
+
+Message Size: 16MB
+MPI_Alltoall Max Speed: 1.6037GB/s
+MPI_Sendrecv Max Speed: 5.61967GB/s
+
+Message Size: 32MB
+MPI_Alltoall Max Speed: 3.0763GB/s
+MPI_Sendrecv Max Speed: 5.68614GB/s
+
+Message Size: 64MB
+MPI_Alltoall Max Speed: 3.29401GB/s
+MPI_Sendrecv Max Speed: 5.7157GB/s
+
+Message Size: 128MB
+
+
+Batch Job Summary Report (version 21.01.1) for Job "mpi_16" (44200877) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2023-01-13T09:59:15 2023-01-13T09:59:15 2023-01-13T09:59:17 2023-01-13T10:39:33   00:40:16   00:40:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+     trohner        s1069       normal       16   3558.473 kJ
+

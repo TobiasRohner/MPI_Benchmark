@@ -1,0 +1,95 @@
+ModuleCmd_Switch.c(179):ERROR:152: Module 'PrgEnv-cray' is currently not loaded
+gcc/11.2.0(3):ERROR:150: Module 'gcc/11.2.0' conflicts with the currently loaded module(s) 'gcc/9.3.0'
+gcc/11.2.0(3):ERROR:102: Tcl command execution failed: conflict gcc
+
+
+Message Size: 1KB
+MPI_Alltoall Max Speed: 0.727024GB/s
+MPI_Sendrecv Max Speed: 0.398589GB/s
+
+Message Size: 2KB
+MPI_Alltoall Max Speed: 1.19855GB/s
+MPI_Sendrecv Max Speed: 0.716106GB/s
+
+Message Size: 4KB
+MPI_Alltoall Max Speed: 1.73899GB/s
+MPI_Sendrecv Max Speed: 1.22384GB/s
+
+Message Size: 8KB
+MPI_Alltoall Max Speed: 2.41456GB/s
+MPI_Sendrecv Max Speed: 0.944042GB/s
+
+Message Size: 16KB
+MPI_Alltoall Max Speed: 3.77599GB/s
+MPI_Sendrecv Max Speed: 1.63936GB/s
+
+Message Size: 32KB
+MPI_Alltoall Max Speed: 4.63414GB/s
+MPI_Sendrecv Max Speed: 2.64133GB/s
+
+Message Size: 64KB
+MPI_Alltoall Max Speed: 5.21GB/s
+MPI_Sendrecv Max Speed: 3.51213GB/s
+
+Message Size: 128KB
+MPI_Alltoall Max Speed: 5.70886GB/s
+MPI_Sendrecv Max Speed: 4.59764GB/s
+
+Message Size: 256KB
+MPI_Alltoall Max Speed: 6.06079GB/s
+MPI_Sendrecv Max Speed: 5.51618GB/s
+
+Message Size: 512KB
+MPI_Alltoall Max Speed: 5.59611GB/s
+MPI_Sendrecv Max Speed: 5.91603GB/s
+
+Message Size: 1MB
+MPI_Alltoall Max Speed: 5.48427GB/s
+MPI_Sendrecv Max Speed: 6.20403GB/s
+
+Message Size: 2MB
+MPI_Alltoall Max Speed: 5.18038GB/s
+MPI_Sendrecv Max Speed: 5.94993GB/s
+
+Message Size: 4MB
+MPI_Alltoall Max Speed: 3.37695GB/s
+MPI_Sendrecv Max Speed: 5.86999GB/s
+
+Message Size: 8MB
+MPI_Alltoall Max Speed: 2.72404GB/s
+MPI_Sendrecv Max Speed: 5.75168GB/s
+
+Message Size: 16MB
+MPI_Alltoall Max Speed: 2.54648GB/s
+MPI_Sendrecv Max Speed: 5.8431GB/s
+
+Message Size: 32MB
+MPI_Alltoall Max Speed: 2.66833GB/s
+MPI_Sendrecv Max Speed: 5.85975GB/s
+
+Message Size: 64MB
+MPI_Alltoall Max Speed: 3.30403GB/s
+MPI_Sendrecv Max Speed: 5.83163GB/s
+
+Message Size: 128MB
+MPI_Alltoall Max Speed: 3.75816GB/s
+MPI_Sendrecv Max Speed: 5.86459GB/s
+
+Message Size: 256MB
+
+
+Batch Job Summary Report (version 21.01.1) for Job "mpi_8" (44200876) on daint
+
+Job information (1/2)
+-----------------------------------------------------------------------------------------------------
+             Submit            Eligible               Start                 End    Elapsed Time limit
+------------------- ------------------- ------------------- ------------------- ---------- ----------
+2023-01-13T09:59:14 2023-01-13T09:59:14 2023-01-13T09:59:17 2023-01-13T10:19:45   00:20:28   00:20:00
+-----------------------------------------------------------------------------------------------------
+
+Job information (2/2)
+-------------------------------------------------------------
+    Username      Account    Partition   NNodes        Energy
+------------ ------------ ------------ -------- -------------
+     trohner        s1069       normal        8    901.299 kJ
+
