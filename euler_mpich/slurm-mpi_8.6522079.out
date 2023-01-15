@@ -1,0 +1,84 @@
+
+Message Size: 1KB
+MPI_Alltoall Max Speed: 0.0271705GB/s
+MPI_Sendrecv Max Speed: 0.0063959GB/s
+
+Message Size: 2KB
+MPI_Alltoall Max Speed: 0.0530211GB/s
+MPI_Sendrecv Max Speed: 0.0156554GB/s
+
+Message Size: 4KB
+MPI_Alltoall Max Speed: 0.106743GB/s
+MPI_Sendrecv Max Speed: 0.0370035GB/s
+
+Message Size: 8KB
+MPI_Alltoall Max Speed: 0.267608GB/s
+MPI_Sendrecv Max Speed: 0.0728863GB/s
+
+Message Size: 16KB
+MPI_Alltoall Max Speed: 0.420428GB/s
+MPI_Sendrecv Max Speed: 0.114771GB/s
+
+Message Size: 32KB
+MPI_Alltoall Max Speed: 0.736235GB/s
+MPI_Sendrecv Max Speed: 0.246866GB/s
+
+Message Size: 64KB
+MPI_Alltoall Max Speed: 0.392959GB/s
+MPI_Sendrecv Max Speed: 0.332513GB/s
+
+Message Size: 128KB
+MPI_Alltoall Max Speed: 0.66709GB/s
+MPI_Sendrecv Max Speed: 0.566619GB/s
+
+Message Size: 256KB
+MPI_Alltoall Max Speed: 0.875206GB/s
+MPI_Sendrecv Max Speed: 0.705326GB/s
+
+Message Size: 512KB
+MPI_Alltoall Max Speed: 1.1707GB/s
+MPI_Sendrecv Max Speed: 1.01326GB/s
+
+Message Size: 1MB
+MPI_Alltoall Max Speed: 1.14075GB/s
+MPI_Sendrecv Max Speed: 0.997052GB/s
+
+Message Size: 2MB
+MPI_Alltoall Max Speed: 1.18335GB/s
+MPI_Sendrecv Max Speed: 1.15643GB/s
+
+Message Size: 4MB
+MPI_Alltoall Max Speed: 1.30945GB/s
+MPI_Sendrecv Max Speed: 1.35819GB/s
+
+Message Size: 8MB
+MPI_Alltoall Max Speed: 1.44335GB/s
+MPI_Sendrecv Max Speed: 1.28269GB/s
+
+Message Size: 16MB
+MPI_Alltoall Max Speed: 1.50058GB/s
+MPI_Sendrecv Max Speed: 1.15918GB/s
+
+Message Size: 32MB
+MPI_Alltoall Max Speed: 1.20919GB/s
+MPI_Sendrecv Max Speed: 1.0399GB/s
+
+Message Size: 64MB
+MPI_Alltoall Max Speed: 1.27775GB/s
+MPI_Sendrecv Max Speed: 1.08003GB/s
+
+Message Size: 128MB
+MPI_Alltoall Max Speed: 1.30035GB/s
+MPI_Sendrecv Max Speed: 1.09567GB/s
+
+Message Size: 256MB
+MPI_Alltoall Max Speed: 1.30418GB/s
+MPI_Sendrecv Max Speed: 1.10372GB/s
+
+Message Size: 512MB
+MPI_Alltoall Max Speed: 1.32442GB/s
+MPI_Sendrecv Max Speed: 1.129GB/s
+
+Message Size: 1GB
+MPI_Alltoall Max Speed: 1.2328GB/s
+MPI_Sendrecv Max Speed: 1.13741GB/s
