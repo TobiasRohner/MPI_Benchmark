@@ -1,0 +1,119 @@
+Lmod has detected the following error: Swap failed: "PrgEnv-cray" is not
+loaded.
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"daint-gpu"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "daint-gpu"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"cudatoolkit"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "cudatoolkit"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "Boost"
+   Try: "module spider Boost" to see how to load the module(s).
+
+
+
+
+Message Size: 1KB
+MPI_Alltoall Max Speed: 0.203061GB/s
+MPI_Sendrecv Max Speed: 0.177999GB/s
+
+Message Size: 2KB
+MPI_Alltoall Max Speed: 0.407836GB/s
+MPI_Sendrecv Max Speed: 0.366445GB/s
+
+Message Size: 4KB
+MPI_Alltoall Max Speed: 0.810043GB/s
+MPI_Sendrecv Max Speed: 0.648345GB/s
+
+Message Size: 8KB
+MPI_Alltoall Max Speed: 1.56436GB/s
+MPI_Sendrecv Max Speed: 1.26017GB/s
+
+Message Size: 16KB
+MPI_Alltoall Max Speed: 2.90353GB/s
+MPI_Sendrecv Max Speed: 2.2528GB/s
+
+Message Size: 32KB
+MPI_Alltoall Max Speed: 4.35903GB/s
+MPI_Sendrecv Max Speed: 2.98176GB/s
+
+Message Size: 64KB
+MPI_Alltoall Max Speed: 7.17112GB/s
+MPI_Sendrecv Max Speed: 4.75731GB/s
+
+Message Size: 128KB
+MPI_Alltoall Max Speed: 9.7958GB/s
+MPI_Sendrecv Max Speed: 6.34725GB/s
+
+Message Size: 256KB
+MPI_Alltoall Max Speed: 12.1092GB/s
+MPI_Sendrecv Max Speed: 7.77252GB/s
+
+Message Size: 512KB
+MPI_Alltoall Max Speed: 11.5408GB/s
+MPI_Sendrecv Max Speed: 8.65187GB/s
+
+Message Size: 1MB
+MPI_Alltoall Max Speed: 12.2609GB/s
+MPI_Sendrecv Max Speed: 9.51973GB/s
+
+Message Size: 2MB
+MPI_Alltoall Max Speed: 12.9478GB/s
+MPI_Sendrecv Max Speed: 10.138GB/s
+
+Message Size: 4MB
+MPI_Alltoall Max Speed: 13.2624GB/s
+MPI_Sendrecv Max Speed: 10.8798GB/s
+
+Message Size: 8MB
+MPI_Alltoall Max Speed: 12.9124GB/s
+MPI_Sendrecv Max Speed: 8.78537GB/s
+
+Message Size: 16MB
+MPI_Alltoall Max Speed: 12.0778GB/s
+MPI_Sendrecv Max Speed: 7.93189GB/s
+
+Message Size: 32MB
+MPI_Alltoall Max Speed: 11.9856GB/s
+MPI_Sendrecv Max Speed: 7.94099GB/s
+
+Message Size: 64MB
+MPI_Alltoall Max Speed: 11.9115GB/s
+MPI_Sendrecv Max Speed: 7.95877GB/s
+
+Message Size: 128MB
+MPI_Alltoall Max Speed: 11.8389GB/s
+MPI_Sendrecv Max Speed: 7.99064GB/s
+
+Message Size: 256MB
+MPI_Alltoall Max Speed: 11.8308GB/s
+MPI_Sendrecv Max Speed: 7.95543GB/s
+
+Message Size: 512MB
+MPI_Alltoall Max Speed: 11.8012GB/s
+MPI_Sendrecv Max Speed: 7.93485GB/s
+
+Message Size: 1GB
+MPI_Alltoall Max Speed: 11.9085GB/s
+MPI_Sendrecv Max Speed: 7.96758GB/s
